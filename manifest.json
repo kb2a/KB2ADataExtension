@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "KB2A Data - Profile Manager",
+  "version": "1.0.0",
+  "kb2a_data_id": "Profile 2",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": ["bg.js"],
+    "persistent": true
+  }
+}
